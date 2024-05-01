@@ -70,6 +70,14 @@ const Home: NextPage = () => {
           <Github />
           <p>Made with 💖 by Aenish</p>
         </a>
+        <a
+          className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm text-gray-600 shadow-md transition-colors hover:bg-gray-100 mb-5"
+          href="https://plausible.io/vps.aenishshrestha.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p>🌐 View Realtime Analytics</p>
+        </a>
         <h1 className="sm:text-6xl text-4xl max-w-2xl font-bold text-slate-900">
           Generate your next Facebook Ad caption in seconds
         </h1>

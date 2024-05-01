@@ -46,7 +46,9 @@ const Home: NextPage = () => {
     }
 
     let answer = await response.json();
-    setGeneratedBios(answer.choices[0].text);
+    console.log(answer);
+    // setGeneratedBios(answer.choices[0].message.content);
+    setGeneratedBios(answer.choices[0].message.content);
     setLoading(false);
   };
 

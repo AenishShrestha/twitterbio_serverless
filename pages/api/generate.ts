@@ -69,11 +69,11 @@ export default async function handler(
   }
 
   const payload = {
-    model: "mistralai/mixtral-8x22b-instruct-v0.1",
+    model: "mistralai/mistral-7b-instruct-v0.2",
     "messages": [
       {
         "role": "system",
-        "content": "You are a helpful assistant."
+        "content": "You are a helpful assistant.Generate me a hig quality facebook ad copy but each time make it different."
       },
       {
         "role": "user",
@@ -84,7 +84,7 @@ export default async function handler(
     top_p: 1,
     frequency_penalty: 0,
     presence_penalty: 0,
-    max_tokens: 200,
+    max_tokens: 300,
     stream: false,
     n: 1,
   };
